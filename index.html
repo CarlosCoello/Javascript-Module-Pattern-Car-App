@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>OOPS Practice</title>
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Open+Sans">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container-fluid top">
+    <div class="car-for-sale">
+      <header class="header text-center">
+        <h1>Cars for sale</h1>
+        <h3>Add your Car to the list below!</h3>
+      </header>
+    </div><!-- .car-for-sale -->
+  </div><!-- .top -->
+
+  <div class="container bottom">
+    <div class="add">
+      <div class="add__container">
+        <p>Only upload .jpg, .jpeg, .png</p>
+        <p>Image max size 1.9mb</p>
+        <input type="file" class="add__image" name="fileToUpload" id="fileToUpload">
+        <input type="text" class="add__make" placeholder="Make">
+        <input type="text" class="add__model" placeholder="Model">
+        <input type="number" class="add__year" placeholder="Year">
+        <input type="number" class="add__price" placeholder="Price">
+        <input type="text" class="add__city" placeholder="City">
+        <input type="text" class="add__state" placeholder="State">
+        <button class="add__btn">Upload</button>
+      </div><!-- .add__container -->
+    </div><!-- .add -->
+
+    <div class="contact-form-overlay" hidden>
+      <div class="close-button">
+        <a class="close-anchor">X</a>
+      </div><!-- .close-button -->
+      <div class="contact-form">
+        <div class="form-text">
+          <h4 style="color: white;">Contact the seller and start negotiating a deal!</h4>
+        </div><!-- .form-text -->
+        <form>
+          <input type="text" class="form-control" name="name" placeholder="Name">
+          <input type="email" class="form-control" name="email" placeholder="Email">
+          <textarea class="form-control" name="message" cols="30" rows="5" placeholder="Message"></textarea>
+          <button type="submit" class="btn btn-success" name="submit">Send</button>
+        </form>
+      </div><!-- .contact-form -->
+    </div><!-- .contact-form-overlay -->
+
+    <div class="car__list">
+
+    </div><!-- .car__list -->
+  </div><!-- .bottom -->
+
+  <footer>
+    <p style="line-height: 100px; text-align: center; color: #fff;">Hello i am the footer hurray!</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="ajax.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
