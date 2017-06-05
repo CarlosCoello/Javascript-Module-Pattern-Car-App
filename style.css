@@ -20,6 +20,7 @@ ________________________________________________
     position: relative;
     width: 100%;
     height: 250px;
+    background-image: url('images/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
@@ -110,7 +111,7 @@ ____________________________________________________
 */
 
 .car__list {
-  margin-bottom: 125px;  
+  margin-bottom: 125px;
 }
 
 .car__item {
@@ -119,7 +120,7 @@ ____________________________________________________
 }
 
 .car__item .col-sm-3:last-child {
-  padding-right: 0;  
+  padding-right: 0;
 }
 
 .car__left__container img {
@@ -261,15 +262,14 @@ _____________________________________________
     width: 100%;
   }
 }
-  
+
 @media (max-width: 767px){
   .car__item .col-sm-3:last-child {
     padding-right: 0;
     padding-left: 0;
   }
-  
+
   .contact-seller-inner button {
     margin: 10px 10px;
   }
 }
-
